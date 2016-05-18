@@ -7,8 +7,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "3.3.6",
-    "CMB2": "c1bd09f9fdf1b4ca5ef5d10a31bcfc74db9a3e06"
+    "bootstrap-sass": "3.3.6"
   },
   "overrides": {
     "bootstrap-sass": {

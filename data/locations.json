@@ -1,0 +1,264 @@
+{
+  "locations": [
+    {
+      "title": "Tampa",
+      "address": {
+        "street_address": "913 East Hillsborough Avenue",
+        "city": "Tampa",
+        "state": "FL",
+        "zipcode": "33604"
+      },
+      "phone": "813.232.5889",
+      "hours": [
+        {
+          "start_day": "Sunday",
+          "end_day": "Wednesday",
+          "open_from": "11:00 AM",
+          "closed_at": "4:00 AM",
+          "hour_override": ""
+        },
+        {
+          "start_day": "Thursday",
+          "end_day": "Saturday",
+          "open_from": "",
+          "closed_at": "",
+          "hour_override": "24 Hours"
+        }
+      ],
+      "managers": [
+        {
+          "name": "Aaron Lucas",
+          "position": "GM"
+          },
+          {
+          "name": "Lorena Almanza",
+          "position": "AGM"
+        }
+      ],
+      "external_url": "https://main.takeouttech.com/Store?cid=279&locid=3090",
+      "thumbnail_url": "/wp-content/themes/tacobus/dist/images/thumb--tampa.png",
+      "content": "<p>Thank you for visiting our East Hillsborough webpage. </p><p>Our East Hillsborough location is where Taco Bus first hit its brakes, but we’re not stopping until we’ve reached our ultimate destination – your culinary delight.</p><p>So stop on by and bring your friends and family along for a trip to authentic Mexican flavor, served fresh and open late!</p><p>And if you've got to have it mas rapido, you can save time by ordering online.</p>"
+    },
+    {
+      "title": "St. Pete",
+      "address": {
+        "street_address": "2324 Central Avenue",
+        "city": "St Petersburg",
+        "state": "FL",
+        "zipcode": "33712"
+      },
+      "phone": "727.322.5000",
+      "hours": [
+        {
+          "start_day": "Sunday",
+          "end_day": "Thursday",
+          "open_from": "11:00 AM",
+          "closed_at": "10:00 PM",
+          "hour_override": ""
+        },
+        {
+          "start_day": "Friday",
+          "end_day": "Saturday",
+          "open_from": "11:00 AM",
+          "closed_at": "4:00 AM",
+          "hour_override": ""
+        }
+      ],
+      "managers": [
+        {
+          "name": "Adam Grand",
+          "position": "GM"
+          },
+          {
+          "name": "Tim Parkhurst",
+          "position": "AGM"
+        }
+      ],
+      "external_url": "https://main.takeouttech.com/Store?cid=279&locid=3093",
+      "thumbnail_url": "/wp-content/themes/tacobus/dist/images/thumb--stpete.png",
+      "content": "<p>Thank you for visiting our Taco Bus St. Pete webpage. Ever since Taco Bus rolled into its St. Pete location, we’ve been taking fans to their ultimate destination – culinary delight.</p><p>So stop on by and bring your friends and family along for a trip to authentic Mexican flavor, served fresh and open late!</p><p>And if you've got to have it mas rapido, you can save time by ordering online.</p>"
+    },
+    {
+      "title": "Brandon",
+      "address": {
+        "street_address": "301 South Falkenburg Road",
+        "city": "Tampa",
+        "state": "FL",
+        "zipcode": "33619"
+      },
+      "phone": "813.651.5790 ",
+      "hours": [
+        {
+          "start_day": "Sunday",
+          "end_day": "Thursday",
+          "open_from": "11:00 AM",
+          "closed_at": "10:00 PM",
+          "hour_override": ""
+        },
+        {
+          "start_day": "Friday",
+          "end_day": "Saturday",
+          "open_from": "11:00 AM",
+          "closed_at": "4:00 AM",
+          "hour_override": ""
+        }
+      ],
+      "managers": [
+        {
+          "name": "Ana Cuello",
+          "position": "GM"
+          }
+      ],
+      "external_url": "https://main.takeouttech.com/Store?cid=279&locid=3096",
+      "thumbnail_url": "/wp-content/themes/tacobus/dist/images/thumb--brandon.png",
+      "content": "<p>Thank you for visiting our Taco Bus Brandon webpage. Ever since Taco Bus rolled into its Brandon location, we’ve been taking fans to their ultimate destination – culinary delight.</p><p>So stop on by and bring your friends and family along for a trip to authentic Mexican flavor, served fresh and open late!</p><p>And if you've got to have it mas rapido, you can save time by ordering online.</p><h3>Special Events</h3><p>Taco Bus Brandon has a car show the second Sunday of the month with a DJ playing music from 4pm to 7pm during the summer and 3pm to 6pm during the winter. There are a variety of cars ranging from classics to sports cars and everything in between. So come on out, listen to some music, check out some cars and enjoy a taco while you’re here.</p>"
+    },
+    {
+      "title": "Downtown",
+      "address": {
+        "street_address": "505 Franklin Street",
+        "city": "Tampa",
+        "state": "FL",
+        "zipcode": "33602"
+      },
+      "phone": "813.397.2800",
+      "hours": [
+        {
+          "start_day": "Sunday",
+          "end_day": "Thursday",
+          "open_from": "11:00 AM",
+          "closed_at": "10:00 PM",
+          "hour_override": ""
+        },
+        {
+          "start_day": "Friday",
+          "end_day": "Saturday",
+          "open_from": "11:00 AM",
+          "closed_at": "3:00 AM",
+          "hour_override": ""
+        }
+      ],
+      "managers": [
+        {
+          "name": "Kevin Valle",
+          "position": "GM"
+          }
+      ],
+      "external_url": "https://main.takeouttech.com/Store?cid=279&locid=3094",
+      "thumbnail_url": "/wp-content/themes/tacobus/dist/images/thumb--downtown.png",
+      "content": "<p>Thank you for visiting our Taco Bus Downtown webpage. Ever since Taco Bus rolled into downtown Tampa, we’ve been taking fans to their ultimate destination – culinary delight.</p><p>So stop on by and bring your friends, family and co-workers along for a trip to authentic Mexican flavor, served fresh and open late!</p><p>And if you've got to have it mas rapido, you can save time by ordering online.</p>"
+    },
+    {
+      "title": "USF",
+      "address": {
+        "street_address": "2320 E. Fletcher Avenue",
+        "city": "Tampa",
+        "state": "FL",
+        "zipcode": "33612"
+      },
+      "phone": "813.977.6808",
+      "hours": [
+        {
+          "start_day": "Sunday",
+          "end_day": "Thursday",
+          "open_from": "11:00 AM",
+          "closed_at": "10:00 PM",
+          "hour_override": ""
+        },
+        {
+          "start_day": "Friday",
+          "end_day": "Saturday",
+          "open_from": "11:00 AM",
+          "closed_at": "4:00 AM",
+          "hour_override": ""
+        }
+      ],
+      "managers": [
+        {
+          "name": "Pedro Ramos",
+          "position": "GM"
+          }
+      ],
+      "external_url": "https://main.takeouttech.com/Store?cid=279&locid=3095",
+      "thumbnail_url": "/wp-content/themes/tacobus/dist/images/thumb--downtown.png",
+      "content": "<p>Thank you for visiting our Taco Bus University of South Florida webpage. Ever since Taco Bus rolled into USF, we’ve been taking Bulls fans to their ultimate destination – culinary delight.</p><p>So stop on by and bring your friends and family along for a trip to authentic Mexican flavor, served fresh and open late!</p><p>And if you've got to have it mas rapido, you can save time by ordering online.</p>"
+    },
+    {
+      "title": "SOHO",
+      "address": {
+        "street_address": "401 S. Howard",
+        "city": "Tampa",
+        "state": "FL",
+        "zipcode": "33606"
+      },
+      "phone": "813.232.6666",
+      "hours": [
+        {
+          "start_day": "Thursday",
+          "end_day": "Sunday",
+          "open_from": "5:00 PM",
+          "closed_at": "3:00 AM",
+          "hour_override": ""
+        },
+        {
+          "start_day": "Monday",
+          "end_day": "Wednesday",
+          "open_from": "",
+          "closed_at": "",
+          "hour_override": "Closed"
+        }
+      ],
+      "external_url": "",
+      "thumbnail_url": "/wp-content/themes/tacobus/dist/images/thumb--downtown.png",
+      "content": "<p>Thank you for visiting our Taco Bus SOHO webpage. We've just rolled into a new Tampa location here on S. Howard. We're spicing it up Thursday through Sunday with all the flavors you've come to know and love.</p><p>So stop on by and bring your friends, family and co-workers along for a trip to authentic Mexican flavor, served fresh and open late!</p>"
+    },
+    {
+      "title": "Lakeland",
+      "address": {
+        "street_address": "126 S. Kentucky Ave",
+        "city": "Lakeland",
+        "state": "FL",
+        "zipcode": "33801"
+      },
+      "phone": "",
+      "hours": [
+        {
+          "start_day": "Sunday",
+          "end_day": "Thursday",
+          "open_from": "11:00 AM",
+          "closed_at": "10:00 PM",
+          "hour_override": ""
+        },
+        {
+          "start_day": "Friday",
+          "end_day": "Saturday",
+          "open_from": "11:00 AM",
+          "closed_at": "3:00 AM",
+          "hour_override": ""
+        }
+      ],
+      "external_url": "https://main.takeouttech.com/Store?cid=279&locid=3746",
+      "thumbnail_url": "/wp-content/themes/tacobus/dist/images/thumb--downtown.png",
+      "content": "<p>Thank you for visiting our Taco Bus Lakeland webpage. We've just rolled into our new location here on 126 S. Kentucky Ave. We're spicing it up every day of the week with all the flavors you've come to know and love.</p><p>So stop on by and bring your friends, family and co-workers along for a trip to authentic Mexican flavor, served fresh and open late!</p><p>And if you've got to have it mas rapido, you can save time by ordering online.</p>"
+    },
+    {
+      "title": "Corporate Offices",
+      "address": {
+        "street_address": "5701 E Hillsborough Ave, Suite 2453",
+        "city": "Tampa",
+        "state": "FL",
+        "zipcode": "33610"
+      },
+      "phone": "813.232.6666",
+      "hours": [
+        {
+          "start_day": "Monday",
+          "end_day": "Friday",
+          "open_from": "8:00 AM",
+          "closed_at": "5:00 PM",
+          "hour_override": ""
+        }
+      ]
+    }
+  ]
+}

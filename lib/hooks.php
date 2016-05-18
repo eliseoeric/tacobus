@@ -6,12 +6,18 @@ function register_hooks() {
 	$hook_manager->register_shortcodes(array(
 		'columns',
 		'headline',
-		'divider'
+		'divider',
+		'accordion'
 	));
 
 	$hook_manager->register_posts(array(
 		'menu_pt',
-		'locations_pt'
+		'locations_pt',
+	));
+
+	$hook_manager->register_metabox_group(array(
+		'location_mb',
+		'menu_template_mb'
 	));
 }
 
@@ -32,6 +38,8 @@ class Hook_Manager {
 		add_action( 'after_switch_theme', function() {
 			flush_rewrite_rules();
 		});
+
+		add_filter( 'cmb2_show_on', array( $this, 'be_metabox_show_on_slug' ) ,10, 2 );
 	}
 
 	public function register_shortcodes( $shortcodes ) {
@@ -80,6 +88,36 @@ class Hook_Manager {
 			add_action('widgets_init', function() use ($widget) {
 				register_widget( $widget );
 			});
+		}
+	}
+
+	function be_metabox_show_on_slug( $display, $meta_box ) {
+        if ( ! isset( $meta_box['show_on']['key'], $meta_box['show_on']['value'] ) ) {
+            return $display;
+        }
+        if ( 'slug' !== $meta_box['show_on']['key'] ) {
+            return $display;
+        }
+        $post_id = 0;
+        // If we're showing it based on ID, get the current ID
+        if ( isset( $_GET['post'] ) ) {
+            $post_id = $_GET['post'];
+        } elseif ( isset( $_POST['post_ID'] ) ) {
+            $post_id = $_POST['post_ID'];
+        }
+        if ( ! $post_id ) {
+            return $display;
+        }
+        $slug = get_post( $post_id )->post_name;
+        // See if there's a match
+        return in_array( $slug, (array) $meta_box['show_on']['value']);
+    }
+
+    public function register_metabox_group( $groups ) {
+		foreach( $groups as $meta_box )
+		{
+			include_once( get_template_directory() . '/metaboxes/' . $meta_box . '.php' );
+			add_filter( 'cmb2_init', $meta_box );
 		}
 	}
 

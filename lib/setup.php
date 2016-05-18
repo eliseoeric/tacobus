@@ -50,6 +50,8 @@ function setup() {
 
   // stop wordpress from addings stupid p tags and br
   remove_filter( 'the_content', 'wpautop' );
+
+
 }
 add_action('after_setup_theme', __NAMESPACE__ . '\\setup');
 
@@ -67,8 +69,35 @@ function widgets_init() {
   ]);
 
   register_sidebar([
-    'name'          => __('Footer', 'sage'),
-    'id'            => 'sidebar-footer',
+    'name'          => __('Footer Column 1', 'sage'),
+    'id'            => 'sidebar-footer-1',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ]);
+
+  register_sidebar([
+    'name'          => __('Footer Column 2', 'sage'),
+    'id'            => 'sidebar-footer-2',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ]);
+
+  register_sidebar([
+    'name'          => __('Footer Column 3', 'sage'),
+    'id'            => 'sidebar-footer-3',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ]);
+
+  register_sidebar([
+    'name'          => __('Footer Column 4', 'sage'),
+    'id'            => 'sidebar-footer-4',
     'before_widget' => '<section class="widget %1$s %2$s">',
     'after_widget'  => '</section>',
     'before_title'  => '<h3>',
@@ -89,6 +118,7 @@ function display_sidebar() {
     is_404(),
     is_front_page(),
     is_page_template('template-custom.php'),
+    is_page(),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);

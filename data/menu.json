@@ -1,0 +1,249 @@
+{
+	"menus": [
+		{
+			"title": "Appetizers",
+			"accordions": [
+				{
+					"title": "Chips & Dip",
+					"id": "app_1",
+					"price": "4.99",
+					"image": "img-chips2dips.jpg",
+					"content": " Get your taste buds rolling with our mouthwatering starters. Choose from Queso, Calabaza (Butternut Squash), Bean Dip, Guacamole, Mango Ceviche(Grouper) and Pico de Gallo.<br>Choose one - $4.99<br>Choose two - $7.99"
+				},
+				{
+					"title": "Loaded Quesadilla",
+					"id": "app_2",
+					"price": "9.89",
+					"image": "img--quesadilla86f1608d1d166457b2beff00009fc6b2.jpg",
+					"content": "Large flour tortillas filled with your choice of filling and cheese. Topped with guacamole, pico de gallo and sour cream. (ADD $1 FOR VEGAN STEAK STRIPS). Substitute VEGAN cheese for $2"
+				},
+				{
+					"title": "Queso Quesadilla",
+					"id": "app_3",
+					"price": "7.89",
+					"image": "img--queso_quesadilla.jpg",
+					"content": "Large flour tortillas filled with cheese. Served with guacamole, pico de gallo and sour cream on the side. Substitute VEGAN cheese for $2"
+				},
+				{
+					"title": "Chips & Salsa",
+					"id": "app_4",
+					"price": "2.99",
+					"image": "img--salsa.jpg",
+					"content": "Our chips and salsa are made fresh daily and are sure to heat up your authentically-delicioso, Taco Bus experience."
+				}
+			],
+			"content": ""
+		},
+		{
+			"title": "Sides",
+			"accordions": [
+				{
+					"title": "Refried Beans",
+					"id": "side_1",
+					"price": "1.69",
+					"content": "A great companion to any Mexican entree and made fresh the Taco Bus way, our refried beans are 100% vegan (that means no meat, lard, broth and no dairy)."
+				},
+				{
+					"title": "Mexican Rice",
+					"id": "side_2",
+					"price": "1.69",
+					"content": "A complement our fans taste journey south of the border, our Mexican rice provides a well-balanced flavor that will delight all palates - 100% vegan (that means no meat, lard, broth and no dairy)."
+				},
+				{
+					"title": "Guacamole",
+					"id": "side_3",
+					"price": "1.00",
+					"content": "Our guacamole is bursting with fresh avocados, tomatoes, onion and cilantro. A perfect enhancement to any dish or scoopably delicious on tostada chips. It's sure to delight our fans and make the Aztecs proud."
+				},
+				{
+					"title": "Crema\/Sour Cream",
+					"id": "side_4",
+					"price": "1.00",
+					"content": "Your taste buds will applaud the cool, fresh, all-natural sour cream as it soothes the spicy heat and delivers a smooth finish to every bite."
+				}
+			],
+			"content": ""
+		},
+		{
+			"title": "Entrees",
+			"accordions": [
+				{
+					"title": "Two Tacos",
+					"id": "ent_1",
+					"price": "5.99",
+					"image": "img--toco.jpg",
+					"content": "Two soft corn or flour tortillas with your choice of filling and taco veggies. (add cheese + $0.30) (Add $1 VEGAN STEAK STRIPS)"
+				},
+				{
+					"title": "Tostada",
+					"id": "ent_2",
+					"price": "6.49",
+					"image": "img--tostada.jpg",
+					"content": "Crunchy flat tortilla smothered with pinto beans, topped with your choice of filling, taco veggies and cheese. (Add $1 for VEGAN STEAK STRIPS)"
+				},
+				{
+					"title": "Burrito",
+					"id": "ent_3",
+					"price": "7.99",
+					"image": "img-buritto2.jpg",
+					"content": "Your choice of filling, taco veggies and cheese wrapped in an X-large our tortilla. (ADD $2 FOR VEGAN STEAK STRIPS)."
+				},
+				{
+					"title": "Burrito Prenado",
+					"id": "ent_4",
+					"price": "7.99",
+					"image": "img--burrito2.jpg",
+					"content": "X-large flour tortilla stuffed with your choice of filling, Mexican rice, refried beans, taco veggies and cheese. (ADD $2 FOR VEGAN STEAK STRIPS)."
+				},
+				{
+					"title": "El Jefe",
+					"id": "ent_5",
+					"price": "12.99",
+					"content": "A HUGE Burrito weighing in at over 2.5 lbs, this is the Chief!  Two tortillas, Double rice and beans, Cheese, Sour Cream, and Guacamole! A portion of the proceeds are donated to LOCAL first responder charities!"
+				},
+				{
+					"title": "Quesadilla",
+					"id": "ent_6",
+					"price": "6.99",
+					"image": "img--quesadilla.jpg",
+					"content": "Large our tortilla folded, filled with your choice of filling, taco veggies and cheese, then grilled. (ADD $2 FOR VEGAN STEAK STRIPS)."
+				},
+				{
+					"title": "Torta",
+					"id": "ent_7",
+					"price": "7.99",
+					"image": "img--torta2.jpg",
+					"content": "Fresh baked bread, slathered with refried beans and mayo with your choice of filling, taco veggies, jalapeno strips and cheese  (ADD $2 FOR VEGAN STEAK STRIPS)."
+				},
+				{
+					"title": "Papos",
+					"id": "ent_8",
+					"price": "7.99",
+					"image": "img--paposplato.jpg",
+					"content": "Your choice of filling over tortilla chips, Mexican rice, taco veggies and queso. (ADD $2 FOR VEGAN STEAK STRIPS)."
+				},
+				{
+					"title": "El Plato",
+					"id": "ent_9",
+					"price": "8.99",
+					"image": "img--plato2.jpg",
+					"content": "Plate piled high with your choice of filling, Mexican rice, refried beans, taco veggies and a side of tortillas (ADD $2 FOR VEGAN STEAK STRIPS)."
+				},
+				{
+					"title": "Salad De La Casa",
+					"id": "ent_10",
+					"price": "7.99",
+					"content": "Chopped romaine spring mix, tomatoes, corn and jicama topped with your choice of filling. Choice of Cilantro or Ancho vinaigrette. (ADD $2 FOR VEGAN STEAK STRIPS)."
+				},
+				{
+					"title": "Kids Menu",
+					"id": "ent_11",
+					"content": "Cheese Quesadilla…........….............. $3.99<br>Taco - Meat and Cheese ONLY.............$2.99 <br>Bean and Cheese Burrito.................. $3.99"
+				}
+
+			],
+			"content": ""
+		},
+		{
+			"title": "Choose Your Filling",
+			"accordions": [
+				{
+					"title": "Meats",
+					"id": "fill_1",
+					"content": "<ul class='list-unstyled'><li><strong>Pollo<\/strong><br>Deliciously seasoned chicken. <\/li><li><strong>Chicken Chipotle<\/strong><br>Tender chicken smothered in a creamy chipotle sauce <\/li><li><strong>Pollo Verde<\/strong><br>Shredded chicken in a tomatillo sauce<\/li><li><strong>Carne Asada<\/strong><br>Diced steak marinated in Mexican seasonings and grilled to perfection<\/li><li><strong>Carne De Res Desebrada<\/strong><br>Shredded beef cooked 'Northern Mexican style' with tomatoes and chiles (MILD) <\/li><li><strong>Picadillo<\/strong><br>Black Angus Ground Chuck in a tomato sauce with a hint of chipotle and cumin with diced potatoes and carrots <\/li><li><strong>Carnitas<\/strong><br>Shredded and seasoned pork that is slow cooked until it “melts in your mouth” tender!  <\/li><li><strong>Cochinita Pibil<\/strong><br>Shredded pork marinated in achiote and bitter orange, then wrapped in banana leaves and slow roasted in a smoker  (BASED ON A 5,000 YEAR OLD MAYAN RECIPE!)<\/li><li><strong>Veracruz Turkey Picadillo<\/strong><br>Ground Turkey in a tomatillo sauce and blended with olives, raisins, and almonds<\/li><li><strong>Chorizo Con Huevos<\/strong><br>Scrambled eggs with a spicy sausage<\/li><\/ul>"
+				},
+				{
+					"title": "Seafood",
+					"id": "fill_2",
+					"content": "<ul class='list-unstyled'><li><strong>Fish \/ Pescado<\/strong><br>Beer battered Grouper topped with a swirl of white cream sauce. Original recipe straight from Guaymas. <\/li><\/ul>"
+				},
+				{
+					"title": "Vegetarian",
+					"id": "fill_3",
+					"content": "<ul class='list-unstyled'><li><strong>RAJAS CON QUESO<\/strong><br>Strips of roasted poblano peppers (Mild) in a creamy sauce with queso fresco (Mexican White Cheese), salsa ranchera and sweet corn kernels. <\/li><li><strong>TOFU<\/strong><br>Grilled tofu strips marinated with northern Mexican spices. Great vegetarian protein source. <\/li><li><strong>PORTABELLA RANCHERO<\/strong><br>Sautéed portabella mushrooms, fire roasted poblanos, potatoes, tomatoes, onions and cilantro in a spicy salsa. <\/li><li><strong>BUTTERNUT SQUASH<\/strong><br>Diced butternut squash grilled with sweet red peppers, tomatoes, and onions. Topped with a sprinkling of queso cotija Mexican cheese (OPTIONAL). Original recipe from the Yucatan Peninsula. <\/li><li><strong>VEGAN “STEAK STRIPS”<\/strong><br>Textured soy protein, seasoned and grilled.<\/li><li><strong>BEANS AND RICE<\/strong><br>Mexican rice, refried beans, taco veggies and cheese (optional).<\/li><li><strong>TRY OUR NEW VEGAN DELICIOUS DAIRY-FREE CHEESE<\/strong><br>Available on our Quesadillas and Burritos for ONLY $2<\/li><\/ul>"
+				},
+				{
+					"title": "Gluten-Free Items",
+					"id": "fill_4",
+					"content": "<strong>The following items are gluten free:<\/strong><ul class='list-unstyled'><li>CORN TORTILLAS <\/li><li>CRISPY TOSTADAS <\/li><li>RICE AND BEANS <\/li><li>VEGGIES: <br>Tomatoes, onions (white only), cilantro, cabbage<\/li><\/ul><ul class='list-unstyled'><li><strong>Gluten Free Fillings<\/strong><\/li><li>BUTTERNUT SQUASH<\/li><li>POLLO VERDE <\/li><li>CARNE DESEBRADA<\/li><li>CARNE ASADA<\/li><li>PORTABELLA RANCHERO <\/li><li>TOFU<\/li><li>FRESH GUACAMOLE AND CHIPS (chips are gluten free) <\/li><li>BUTTERNUT SQUASH APPETIZER<\/li><li>CONCHINITA PIBIL <\/li><li>BARBACOA<\/li><li>CARNITAS<\/li><\/ul><ul class='list-unstyled'><li><strong>Gluten Free Drinks<\/strong><\/li><li>PINEAPPLE AGUA FRESCA<\/li><\/ul><ul class='list-unstyled'><li><strong>THE FOLLOWING MENU ITEMS SHOULD BE AVOIDED:<\/strong><\/li><li>CHICKEN CHIPOTLE <\/li><li>TORTA MEXICANA SANDWICH <\/li><li>FISH (breaded with wheat flour)<\/li><li>VEGAN STEAK STRIPS<\/li><li>FLOUR TORTILLAS<\/li><\/ul><ul class='list-unstyled'><li><strong>THE FOLLOWING CONTAIN VINEGAR:<br>(Taco Bus uses white distilled vinegar on recipes.)<\/strong><\/li><li>SEASONED CHICKEN <\/li><li>PURPLE ONIONS <\/li><li>RED AND GREEN SALSA<\/li><\/ul>"
+				}
+			],
+			"content": ""
+		},
+		{
+			"title": "Desserts",
+			"accordions": [
+				{
+					"title": "Tres Leches Cake",
+					"id": "des_1",
+					"price": "3.50",
+					"image": "img--tresleche.jpg",
+					"content": "A moist and delicious sponge cake soaked in three kinds of milk. Baked at Taco Bus daily."
+				},
+				{
+					"title": "Flan",
+					"id": "des_2",
+					"price": "2.49",
+					"image": "img--flan.jpg",
+					"content": "Traditional Mexican milk custard with caramel."
+				},
+				{
+					"title": "Sopapillas",
+					"id": "des_3",
+					"price": "1.99",
+					"content": "Delicious puffed pillows of fried dough served hot, soft, & sweet drizzled with honey"
+				}
+			],
+			"content": ""
+		},
+		{
+			"title": "Drinks",
+			"accordions": [
+				{
+					"title": "Aguas Fresca",
+					"id": "drink_1",
+					"price": "2.00",
+					"image": "img-aguafresca",
+					"content": "Agua de Piña (Pineapple) Horchata (A traditional Mexican drink made from rice, condensed milk, vanilla & cinnamon)<br>Large ................ $2.50 "
+				},
+				{
+					"title": "Coca Cola Mexicana",
+					"id": "drink_2",
+					"price": "2.50",
+					"image": "img--mexicancoke.jpg"
+				},
+				{
+					"title": "Jarritos Mexican Soda",
+					"id": "drink_3",
+					"price": "1.99",
+					"image": "img--jarritos.jpg",
+					"content": "Mexico's first national soft drink and an amazing complement to Mexican food because of its nine great-tasting and authentically Mex flavors."
+				},
+				{
+					"title": "Soda",
+					"id": "drink_4",
+					"price": "1.79",
+					"image": "img--softdrinks.jpg",
+					"content": "Large ................ $1.99"
+				},
+				{
+					"title": "Bottled Water",
+					"id": "drink_5",
+					"price": "1.50",
+					"image": "img-dasani.jpg",
+					"content": ""
+				},
+				{
+					"title": "Fresh Brewed Tea",
+					"id": "drnk_6",
+					"price": "1.79",
+					"image": "img-icetea",
+					"content": "Our Ice Tea is brewed fresh daily and available as un-sweet or sweetened with natural cane sugar."
+				}
+
+			],
+			"content": ""
+		}
+
+	]
+}

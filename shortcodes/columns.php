@@ -31,9 +31,6 @@ function bootstap_column( $atts, $content = null, $tag ) {
 	if( $tag !== 'row' ) {
 		$html = '<div class="col-sm-12 col-md-6 col-lg-' . $column . '">' . do_shortcode( $content ) . "</div>";
 	}
-
-	
-
 	
 	return $html;
 }

@@ -16,8 +16,10 @@ $sage_includes = [
   'lib/titles.php',    // Page titles
   'lib/wrapper.php',   // Theme wrapper class
   'lib/customizer.php', // Theme customizer
-  'lib/hooks.php'
+  'lib/hooks.php',
+  'lib/seeder.php',
 ];
+
 
 foreach ($sage_includes as $file) {
   if (!$filepath = locate_template($file)) {
@@ -27,3 +29,19 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+//include the CMB2 package
+if ( file_exists( dirname( __FILE__ ) . '/vendor/cmb2/init.php' ) ) {
+  require_once dirname( __FILE__ ) . '/vendor/cmb2/init.php';
+} elseif ( file_exists( dirname( __FILE__ ) . '/vendor/CMB2/init.php' ) ) {
+  require_once dirname( __FILE__ ) . '/vendor/CMB2/init.php';
+}
+
+require_once(dirname( __FILE__ ) . '/lib/wp_bootstrap_navwalker.php');
+
+function dd( $var ) {
+  echo "<pre>";
+  var_dump($var);
+  echo "</pre>";
+  die();
+}
