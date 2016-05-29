@@ -9,7 +9,8 @@ function register_hooks() {
 		'divider',
 		'accordion',
 		'button',
-		'menu_group'
+		'menu_group',
+		'social_links'
 	));
 
 	$hook_manager->register_posts(array(

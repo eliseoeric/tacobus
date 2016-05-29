@@ -1,4 +1,41 @@
 article.post {
 	padding: 1em;
 	margin-bottom: 3em;
+
+	time {
+		border: solid 3px $brand-primary;
+		padding: 5px 10px;
+		text-align: center;
+		position: relative;
+		display: block;
+		color: $brand-primary;
+	}
+
+	.blog-date,
+	.blog-month{
+		display: block;
+		font-weight: 800;
+		width:100%
+	}
+
+	.blog-date {
+		font-size: 28px;
+	}
+
+	.blog-month {
+		font-size: 16px;
+	}
+
+	.entry-summary {
+		margin-left: 1em;
+	}
+
+	.entry-title {
+		a:hover {
+			text-decoration: none;
+			color: $brand-primary;
+
+		}
+	}
 }
+

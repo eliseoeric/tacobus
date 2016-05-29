@@ -3,8 +3,19 @@
 		a{
 			font-size: 26px;
 			text-transform: uppercase;
-			font-weight: 700;
+			font-weight: 800;
 			color: $gray-darker;
+		}
+	}
+
+	& > li.active > a{
+		background-color: transparent;
+		border:none;
+		color: $gray-darker;
+
+		&:hover,
+		&:focus {
+			border:none;
 		}
 	}
 

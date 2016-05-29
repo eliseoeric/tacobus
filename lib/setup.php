@@ -50,6 +50,7 @@ function setup() {
 
   // stop wordpress from addings stupid p tags and br
   remove_filter( 'the_content', 'wpautop' );
+  add_filter('widget_text', 'do_shortcode');
 
 
 }
