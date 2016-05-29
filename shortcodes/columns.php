@@ -24,12 +24,19 @@ function get_bootstrap_column( $tag ) {
 
 function bootstap_column( $atts, $content = null, $tag ) {
 
+	$a = shortcode_atts( 
+		array(
+			'class' => '',
+		),
+		$atts
+	);
+
 	$column = get_bootstrap_column( $tag );
 	
-	$html = '<div class="' . $column . '">' . do_shortcode( $content ) . "</div>";
+	$html = '<div class="' . $column . $a['class'] .'">' . do_shortcode( $content ) . "</div>";
 
 	if( $tag !== 'row' ) {
-		$html = '<div class="col-sm-12 col-md-6 col-lg-' . $column . '">' . do_shortcode( $content ) . "</div>";
+		$html = '<div class="col-sm-12 col-md-6 col-lg-' . $column . ' ' . $a['class'] .'">' . do_shortcode( $content ) . "</div>";
 	}
 	
 	return $html;

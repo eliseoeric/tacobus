@@ -4,6 +4,28 @@ $icon-font-path:        "../fonts/";
 // Grid settings
 $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
+// $container-large-desktop: (940px + 30px);
+
+//Typography
+$font-size-base: 15px;
+$line-height-base: 1.5;
+$font-family-sans-serif: 'Merriweather Sans', sans-serif;
 
 // Colors
-$brand-primary:         #27ae60;
+$brand-primary:         #430098;
+$brand-warning: 		#faaf2e;
+$gray-light:			#404041;
+$gray-darker: 			#090909;
+$white:					#fff;
+
+// Navigation overrides
+$nav-link-hover-bg: 		$brand-warning;
+$nav-link-padding: 			5px 15px 0 15px;
+ $navbar-padding-vertical: 	10px;
+
+// Dropdown overrides
+$dropdown-bg: 				$brand-warning;
+$dropdown-link-color:		$white;
+$dropdown-link-hover-bg: 	$brand-primary;
+$dropdown-link-hover-color:	$white;
+

@@ -137,3 +137,15 @@ function assets() {
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
+
+function google_fonts() {
+  ob_start()?>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+  <?php
+  $html = ob_get_clean();
+
+  echo $html;
+
+}
+
+add_action('wp_enqueue_scripts',  __NAMESPACE__ . '\\google_fonts', 100);

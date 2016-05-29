@@ -1,0 +1,44 @@
+.page-footer {
+	background: $gray-darker;
+
+	&__copywrite {
+		background: $brand-warning;
+		color: $gray-light;
+		padding: 1em 0;
+	}
+
+	&__widgets {
+		padding: 3em 0;
+	}
+
+	&__widget {
+		li:first-of-type{
+			font-weight: 700;
+			text-transform: uppercase;
+			a{
+				color:$brand-warning;
+				&:hover {
+					color:$white;
+				}
+			}
+		}
+
+		li{
+			margin-bottom: .5em;
+		}
+
+		a {
+			color:$white;
+			padding: 0.5em 1em;
+			border-radius: $border-radius-small;
+			&:hover {
+				background-color: $brand-warning;
+				text-decoration: none;
+			}
+
+			&:visited{
+				color:$white;
+			}
+		}
+	}
+}

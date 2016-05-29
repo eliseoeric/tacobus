@@ -17,19 +17,22 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_header');
       get_template_part('templates/header');
+      $container_type = ( basename( get_page_template() ) === 'template-menu.php' ? '' : 'container' );
     ?>
-    <div class="wrap container" role="document">
-      <div class="content row">
-        <main class="main">
-          <?php include Wrapper\template_path(); ?>
-        </main><!-- /.main -->
-        <?php if (Setup\display_sidebar()) : ?>
-          <aside class="sidebar">
-            <?php include Wrapper\sidebar_path(); ?>
-          </aside><!-- /.sidebar -->
-        <?php endif; ?>
-      </div><!-- /.content -->
-    </div><!-- /.wrap -->
+    <div class="page-wrapper">
+      <div class="wrap <?= $container_type ?>" role="document">
+        <div class="content row">
+          <main class="main">
+            <?php include Wrapper\template_path(); ?>
+          </main><!-- /.main -->
+          <?php if (Setup\display_sidebar()) : ?>
+            <aside class="sidebar">
+              <?php include Wrapper\sidebar_path(); ?>
+            </aside><!-- /.sidebar -->
+          <?php endif; ?>
+        </div><!-- /.content -->
+      </div><!-- /.wrap -->
+    </div>
     <?php
       do_action('get_footer');
       get_template_part('templates/footer');

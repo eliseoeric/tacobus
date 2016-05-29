@@ -13,3 +13,63 @@
   @extend .btn;
   @extend .btn-default;
 }
+
+.gfield {
+	@extend .form-group;
+}
+
+.gfield input[type="password"],
+.gfield input[type="text"],
+.gfield input[type="submit"],
+.gfield input[type="email"],
+.gfield input[type="number"],
+.gfield input[type="tel"],
+.gfield select,
+.gfield textarea {
+	@extend .form-control;
+}
+
+.ginput_complex {
+	.name_first,
+	.name_last{
+		width: 49%;
+		display: inline-block;
+	}
+
+	.name_first label,
+	.name_last label {
+		font-size: 12px;
+		font-weight: 300;
+	}
+}
+
+.gform_body ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.gform_button.button {
+	@extend .btn;
+	@extend .btn-default;
+}
+.form-wrapper {
+	padding: 1.5em;
+	border-radius: $border-radius-base;
+}
+
+ul.gfield_checkbox {
+	@extend .checkbox;
+	margin-left: 20px;
+	label {
+		font-size: 12px;
+		font-weight: 300;
+	}
+}
+
+.gfield_date_month,
+.gfield_date_day,
+.gfield_date_year {
+	width: 31%;
+	margin-right: 2%;
+	display:inline-block;
+}

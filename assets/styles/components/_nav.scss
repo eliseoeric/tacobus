@@ -1,0 +1,19 @@
+.nav-primary {
+	a {
+		text-transform: uppercase;
+		font-weight: 700;
+		color: $white;
+	}
+
+	li {
+
+	}
+
+	.dropdown-menu {
+		border: none;
+
+		li > a {
+			font-weight: 700;
+		}
+	}
+}

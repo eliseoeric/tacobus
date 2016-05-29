@@ -72,7 +72,7 @@ class Post_Seeder {
 
 		foreach ($data['menus'] as $menu ) {
 
-			$accordions = $this->build_accordions($menu['accordions']);
+			$accordions = $this->build_accordions($menu['accordions'], $menu['title']);
 			
 			$content = $accordions . $menu['content'];
 			// dd($content);
@@ -86,7 +86,7 @@ class Post_Seeder {
 			), true );
 		}
 
-		update_option('tacobus_menu_seeded', 1);
+		update_option('tacobus_menu_seeded', 2);
 
 	}
 
@@ -99,25 +99,26 @@ class Post_Seeder {
 
 	}
 
-	public function build_accordions( $accordions ) {
-		$html = "<div class='panel-group ' id='" . $accordions['title'] . "' role='tablist' aria-multiselectable='true'>";
-		foreach ($accordions as $accordion ) {
+	public function build_accordions( $accordions, $menu_title ) {
+		$html = "<div class='panel-group ' id='" . $menu_title . "' role='tablist' aria-multiselectable='true'>";
+
+		ob_start();?>
+		<?php foreach ($accordions as $accordion ) {
 			
 			$price = ( $accordion['price'] ? $accordion['price'] : '' );
 			$content = ( $accordion['content'] ? $accordion['content'] : '' );
 			$image = ( $accordion['image'] ? $accordion['image'] : '' );
-			ob_start();
 			?>
 			<div class="panel panel-default">
-			    <div class="panel-heading" role="tab" id="<?= $accordion['id'] ?>">
+			    <div class="panel-heading" role="tab" id="heading<?= $accordion['id'] ?>">
 			      <h4 class="panel-title">
-			        <a role="button" data-toggle="collapse" data-parent="#<?= $accordions['title'] ?>" href="#<?= $accordion['id'] ?>" aria-expanded="false" aria-controls="<?= $accordion['id'] ?>">
-			          <?= $accordion['title'] ?>
-			          <span> <?= $price; ?>
+			        <a role="button" data-toggle="collapse" class="collapsed" data-parent="#<?= $menu_title ?>" href="#<?= $accordion['id'] ?>" aria-expanded="false" aria-controls="<?= $accordion['id'] ?>">
+			          <i class="fa fa-plus-square" aria-hidden="true"></i><?= $accordion['title'] ?>
+			          <span> <?= $price; ?></span>
 			        </a>
 			      </h4>
 			    </div>
-			    <div id="<?= $accordion['id'] ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="<?= $accordion['id'] ?>">
+			    <div id="<?= $accordion['id'] ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?= $accordion['id'] ?>">
 			      <div class="panel-body">
 			        <div class="row">
 			        	<?php if($image) : ?>
@@ -133,12 +134,13 @@ class Post_Seeder {
 			        </div>
 			      </div>
 			    </div>
-			  </div>
-			<?php
-			$html .= ob_get_clean();
+			</div>
+		<?php
 		}
+		
+		$html .= ob_get_clean();
 
-		return $html . "</div>";
+		return $html . "</div><!-- close .panel-group -->";
 	}
 
 }
@@ -163,6 +165,10 @@ function migrate_locations() {
 		$post_seeder->seed_menu();
 	}
 	
+
+	if( $menu_seed === '1' ) {
+		$post_seeder->seed_menu();
+	}
 	//parse the json file
 	//for each json entry, insert new post type location
 }

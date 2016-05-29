@@ -15,12 +15,14 @@
   	</div>
   </div>
 </footer>
-<div class="page-footer__copywrite container">
-	<div class="col-md-9">
-		<small>Website design by <a href="http:/socialfaucet.com">Social Faucet</a></small>
-		<small><a href="/privacy-policy">Policy</a> <a href="/terms-of-use">Terms of Use</a></small>
-	</div>
-	<div class="col-md-3">
-		<small itemprop="copyrightYear">&copy; <?php echo date( 'Y' ); ?></span><span itemprop="copyrightHolder"> Taco Bus</small>
+<div class="banner page-footer__copywrite">
+	<div class="container">
+		<div class="col-md-9">
+			<small>Website design by <a href="http:/socialfaucet.com">Social Faucet</a></small>
+			<small><a href="/privacy-policy">Policy</a> <a href="/terms-of-use">Terms of Use</a></small>
+		</div>
+		<div class="col-md-3">
+			<small itemprop="copyrightYear">&copy; <?php echo date( 'Y' ); ?></span><span itemprop="copyrightHolder"> Taco Bus</small>
+		</div>
 	</div>
 </div>

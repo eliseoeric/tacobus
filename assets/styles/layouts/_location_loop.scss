@@ -1,0 +1,19 @@
+.panel{
+
+	&--location{
+		border: none;
+		margin-bottom: 40px;
+	}
+
+}
+
+.location {
+
+	&--details {
+		h3{
+			font-size: 28px;
+			font-weight: 700;
+			color: $brand-primary;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.social-links {
+
+	&__header {
+		position: absolute;
+		top:-30px;
+		border-bottom: 2px solid $gray-darker;
+		border-right: 2px solid $gray-darker;
+		border-left: 2px solid $gray-darker;
+		border-bottom-right-radius: $border-radius-base * 1.5;
+		border-bottom-left-radius: $border-radius-base * 1.5;
+		padding: 0 2em;
+		background: $brand-warning;
+
+		li{
+			display: inline-block;
+			padding: 5px;
+		}
+
+		a {
+			color:$gray-darker;
+		}
+	}
+}

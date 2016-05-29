@@ -1,0 +1,57 @@
+.btn-ghost {
+	border: 2px solid $brand-primary;
+	box-shadow: 5px 5px 0px 0px $brand-primary;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-weight: 800;
+	padding: 1em;
+	color: $brand-primary;
+	transition: ease .2s all;
+	margin-top: 0.5em; 
+	margin-bottom:0.5em;
+
+
+	.ghost-wrap {
+		border-top: 2px solid $brand-primary;
+		border-bottom: 2px solid $brand-primary;
+		padding: 0.5em 0.5em;
+	}
+
+
+	&:hover {
+		color: $brand-primary;
+		background-color: $brand-warning;
+	}
+}
+
+.btn-ghost-black {
+	border: 2px solid $gray-darker;
+	box-shadow: 5px 5px 0px 0px $gray-darker;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-weight: 800;
+	padding: 1em;
+	color: $brand-primary;
+	transition: ease .2s all;
+	margin-top: 0.5em;
+	margin-bottom:0.5em;
+
+
+	.ghost-wrap {
+		border-top: 2px solid $gray-darker;
+		border-bottom: 2px solid $gray-darker;
+		padding: 0.5em 0.5em;
+	}
+
+
+	&:hover {
+		color: $brand-primary;
+		background-color: $white;
+		border-color: $brand-primary;
+
+		.ghost-wrap{
+			border-color: $brand-primary;
+		}
+	}
+}
+

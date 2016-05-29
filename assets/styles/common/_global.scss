@@ -1,1 +1,38 @@
+ul {
+	list-style: none;
+}
+
+@include bg-variant('.bg-brand-yellow', $brand-warning);
+
+.bg-dark-rivets {
+	background-color:$gray-darker;
+	background-image: url('../images/img--blackRivetBar.png');
+	min-height: 40px;
+}
+
+.bg-yellow-rivets {
+	background-color: $brand-warning;
+	background-image: url('../images/img--yellowRivet.png');
+	height: 30px;
+	// background-repeat: no-repeat-y;
+}
+
+.divider-rivets {
+	height: 20px;
+	background-image: url('../images/icon--dottedline.png');
+	background-repeat-y: no-repeat;
+}
+
+.email-banner {
+	.email-logo {
+		margin: 2em 0;
+	}
+}
+
+blockquote.cta-banner {
+	border-left: 0;
+	font-size: 35px;
+	font-weight: 700;
+	// text-align: center;
+}
 

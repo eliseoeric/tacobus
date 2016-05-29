@@ -1,11 +1,30 @@
-header.header {
+.header {
+	// background-color: $brand-warning;
 
 	&__logo {
 		position: absolute;
-		margin-top:50px;
+		top:35px;
 	}
 
 	.nav-primary {
-		margin-left: 235px;
+		// margin-left: 235px;
 	}
+
+	&__banner {
+		min-height: 50px;
+	}
+}
+
+.brokenEnglish  {
+	position: relative;
+	top: 25px;
+	padding-left: 1em;
+}
+
+.jumbotron.page-title {
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+	background-position: center;
 }
