@@ -7,8 +7,9 @@
 		'orderby' => 'date',
 		'order'	=>	'ASC'
 	) );
-
+	
 ?>
+
 
 <section>
 	<?php while( $locations->have_posts() ) : $locations->the_post(); ?>
@@ -31,7 +32,7 @@
 					</div>
 					<div class="col-md-4 location--details">
 						<address>
-						  <h3><?php echo the_title(); ?></h3><br>
+						  <h3><a href="<?= get_the_permalink(); ?>"><?php echo the_title(); ?></a></h3><br>
 						  <?= $street_address . ', ' . $city . ', ' . $state . ' ' . $zipcode?><br>
 						  <abbr title="Phone">Phone:</abbr> <a href="tel:<?= $phone ?>"><?= $phone ?></a>
 						</address>

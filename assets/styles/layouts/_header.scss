@@ -1,5 +1,7 @@
 .header {
 	// background-color: $brand-warning;
+	position: relative;
+	z-index: 1000;
 
 	&__logo {
 		position: absolute;
@@ -27,4 +29,10 @@
 	background-repeat: no-repeat;
 	margin-bottom: 0;
 	background-position: center;
+
+	&.front-page {
+		height: 450px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 }

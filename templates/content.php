@@ -9,6 +9,10 @@
   </header>
   <div class="entry-summary">
     <?php the_excerpt(); ?>
+    <div class="mg-l-10 mg-b-10 social-share">
+      <?php echo do_shortcode( '[ess_post]' ); ?>
+    </div>
   </div>
   <div class="divider-rivets"></div>
+
 </article>

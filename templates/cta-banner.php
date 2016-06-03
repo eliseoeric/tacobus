@@ -8,7 +8,7 @@
 		<div class="col-md-5">
 			<blockquote class="cta-banner">"The ultimate source for Keepin' it Chido."</blockquote>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 pd-t-25">
 			<?= do_shortcode('[button class="btn-ghost-black" title="Sign Up"]/tacobus/email-club[/button]'); ?>
 		</div>
 	</div>

@@ -10,7 +10,8 @@ function register_hooks() {
 		'accordion',
 		'button',
 		'menu_group',
-		'social_links'
+		'social_links',
+		'gmap'
 	));
 
 	$hook_manager->register_posts(array(
@@ -20,7 +21,8 @@ function register_hooks() {
 
 	$hook_manager->register_metabox_group(array(
 		'location_mb',
-		'menu_template_mb'
+		'menu_template_mb',
+		'page_mb'
 	));
 }
 

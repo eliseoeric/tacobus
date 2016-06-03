@@ -49,6 +49,19 @@ function location_mb( $meta_boxes ) {
 	    'type'    => 'text_medium'	
 	) );
 
+	$location_address->add_field( array(
+		'name'    => 'GMap Lat',
+	    'default' => '',
+	    'id'      => $prefix . 'gmap_lat',
+	    'type'    => 'text'	
+	) );
+	$location_address->add_field( array(
+		'name'    => 'GMap Long',
+	    'default' => '',
+	    'id'      => $prefix . 'gmap_long',
+	    'type'    => 'text'	
+	) );
+
 	$location_hours = new_cmb2_box(
 		array(
 			'id' 			=> $prefix . 'location_hours',

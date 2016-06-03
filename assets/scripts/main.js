@@ -18,7 +18,7 @@
     // All pages
     'common': {
       init: function() {
-        // JavaScript to be fired on all pages
+        console.log('%cThe ultimate source for keepin\' it Chido.', 'color:#430098; font-size: 20px; font-family: arial; font-weight: 300;');
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired

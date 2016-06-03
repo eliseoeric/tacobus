@@ -8,10 +8,10 @@
       <div class="row">
         <div class="col-md-offset-10 col-md-2">
           <ul class="social-links__header">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/TacoBus" target="_blank" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/officialtacobus" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://plus.google.com/111456829313134988133/about" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li><a href="http://www.taco-bus.com/tacobus/email-club" ><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
           </ul>
         </div>
       </div>
@@ -38,12 +38,13 @@
     </div>
   </div>
 </header>
-<!-- Page Banner -->
-<?php $banner = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() )); ?>
-<div class="banner">
-  <div class="jumbotron page-title" style="background-image:url(<?= $banner; ?>)">
-    <div class="container">
-    </div>
-  </div>
-</div>
-<div class="banner bg-dark-rivets"></div>
+<?php 
+  if( get_page_template_slug( $post->ID ) === 'template-locations.php') {
+    get_template_part( 'templates/banner', 'menu' ); 
+  
+  } else if ( !is_front_page()  ){
+     get_template_part('templates/banner', get_post_type() != 'post' ? get_post_type() : get_post_format()); 
+  } else {
+    get_template_part( 'templates/banner', 'frontpage' ); 
+  }
+?>
